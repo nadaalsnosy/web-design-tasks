@@ -10,28 +10,30 @@
 </head>
 
 <body>
-
     <div class="form-container">
         <h1>CONTACT FORM</h1>
         <form method="get" autocomplete="off">
             <input type="text" placeholder="YOUR NAME">
             <input type="email" placeholder="YOUR EMAIL ADDRESS">
-            <input class="company-input" type="text" placeholder="COMPANY">
-            <input type="tel" pattern="[1-9] {11}" placeholder="PHONE">
+            <div class="diffrent-input company-input">
+                <input class="company-input" type="text" placeholder="COMPANY">
+            </div>
+            <div class="diffrent-input">
+                <input type="tel" pattern="[1-9] {11}" placeholder="PHONE">
+            </div>
             <textarea cols="50" rows="3" placeholder="YOUR MESSEGE"></textarea>
             <input type="submit" value="SEND MESSEGE">
         </form>
         <div class="info-content">
-                <h2>YOU CAN FIND US HERE</h2>
-                <p>SAMPLE ADDRESS. SAMPLE STREET. 123/45</p>
-                <a href="#">OR ON MAPS</a>
-                <ul>
-                    <li>+3 (000) 0123 3210</li>
-                    <li>+3 (000) 0456 3210</li>
-                </ul>
+            <h2>YOU CAN FIND US HERE</h2>
+            <p>SAMPLE ADDRESS. SAMPLE STREET. 123/45</p>
+            <a href="#">OR ON MAPS</a>
+            <ul>
+                <li>+3 (000) 0123 3210</li>
+                <li>+3 (000) 0456 3210</li>
+            </ul>
         </div>
     </div>
-
 </body>
 
 </html>

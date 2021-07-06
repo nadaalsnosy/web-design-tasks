@@ -3,37 +3,34 @@
   padding: 0;
   box-sizing: border-box;
 }
-.form-container {
-  background: #11cfcf;
-  padding: 45px 0 70px;
-  margin: 55px 0;
 
+body{
+  background: #11cfcf;
 }
 
+.form-container {
+  width: 90%;
+  margin: 60px auto;
+}
 
 h1 {
   text-align: center;
   color: #ffffff;
-  margin-bottom: 47px;
+  margin-bottom: 45px;
   font-size: 45px;
 }
 
 form {
-  padding: 0 62px;
-  width: 43.5%;
+  width: 40%;
   display: inline-block;
   text-align: right;
-  margin-right:110px;
-}
-
-input:nth-of-type(1){
-    margin-top: 0;
+  margin:20px 0;
 }
 
 input,
 textarea {
-  padding: 20px 11px;
-  margin-bottom: 24px;
+  padding: 20px 10px;
+  margin-bottom: 25px;
   border-radius: 5px;
   border: none;
   display: block;
@@ -42,37 +39,37 @@ textarea {
 }
 
 textarea {
-  font-size: 20px;
+  font-size: 18px;
 }
 
+.diffrent-input,
+input[type="submit"]{
+  width: 48%;
+  display: inline-block;
+}
 
-.company-input,
-input[type="tel"],
-input[type="submit"] {
-    width: 47%;
-    display: inline-block;
+.company-input{
+  float: left;
 }
 
 input[type="submit"] {
   background: #ffeb3e;
-  font-size: 20px;
+  font-size: 18px;
   padding: 18px;
-}
-input[type="tel"] {
-  margin-left: 20px;
 }
 
 .info-content {
-  vertical-align: top;
-  padding: 86px 0 0 110px;
-  width: 42%;
+  margin: 100px 20px;
+  vertical-align: middle;
+  width: 45%;
+  float: right;
   display: inline-block;
   color: #ffffff;
 }
 
 h2 {
   margin: 10px 0;
-  font-size: 36px;
+  font-size: 35px;
 }
 
 ul {
@@ -82,9 +79,10 @@ ul {
 }
 
 li{
-    margin: 6px 0;
+    margin: 5px 0;
     font-size: 18px;
 }
+
 a {
   color: #ffeb3e;
   text-decoration: none;
