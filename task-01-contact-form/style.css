@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.form-container {
+  background: #11cfcf;
+  padding: 45px 0 70px;
+  margin: 55px 0;
+
+}
+
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 47px;
+  font-size: 45px;
+}
+
+form {
+  padding: 0 62px;
+  width: 43.5%;
+  display: inline-block;
+  text-align: right;
+  margin-right:110px;
+}
+
+input:nth-of-type(1){
+    margin-top: 0;
+}
+
+input,
+textarea {
+  padding: 20px 11px;
+  margin-bottom: 24px;
+  border-radius: 5px;
+  border: none;
+  display: block;
+  width: 100%;
+  font-size: 15px;
+}
+
+textarea {
+  font-size: 20px;
+}
+
+
+.company-input,
+input[type="tel"],
+input[type="submit"] {
+    width: 47%;
+    display: inline-block;
+}
+
+input[type="submit"] {
+  background: #ffeb3e;
+  font-size: 20px;
+  padding: 18px;
+}
+input[type="tel"] {
+  margin-left: 20px;
+}
+
+.info-content {
+  vertical-align: top;
+  padding: 86px 0 0 110px;
+  width: 42%;
+  display: inline-block;
+  color: #ffffff;
+}
+
+h2 {
+  margin: 10px 0;
+  font-size: 36px;
+}
+
+ul {
+  margin: 30px 0;
+  font-size: 40px;
+  list-style-position: inside;
+}
+
+li{
+    margin: 6px 0;
+    font-size: 18px;
+}
+a {
+  color: #ffeb3e;
+  text-decoration: none;
+}
