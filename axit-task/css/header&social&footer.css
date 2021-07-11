@@ -1,0 +1,64 @@
+.header-section {
+  background: #000000;
+  padding: 15px 0 10px;
+  position: sticky;
+  top: 0;
+}
+.header-logo {
+  width: 19%;
+  font-size: 30px;
+}
+.header-section h2,
+h1 {
+  color: #ffffff;
+}
+.header-links-container {
+  width: 80%;
+  text-align: right;
+  padding-top: 5px;
+  vertical-align: top;
+}
+.header-link {
+  margin: 15px 20px;
+  font-size: 13px;
+}
+
+.social-links-section {
+  padding: 10px 0;
+  border-bottom: 3px solid #dfd7d7;
+}
+.social-content {
+  width: 35%;
+}
+.social-content h3 {
+  margin: 8px 0;
+}
+.social-links {
+  text-align: right;
+  width: 64%;
+  vertical-align: top;
+  margin-top: 1%;
+}
+.social-icon i {
+  font-size: 35px;
+  margin: 10px 20px;
+}
+
+.footer-section {
+  background: #000000;
+  padding: 10px;
+}
+.footer-section .social-links {
+  text-align: center;
+  width: unset;
+  margin-top: 0;
+}
+.footer-section i {
+  color: #cccccc;
+  font-size: 25px;
+}
+.footer-section p {
+  color: #cccccc;
+  font-size: 16px;
+  margin-top: 5px;
+}
