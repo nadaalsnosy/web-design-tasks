@@ -55,6 +55,23 @@ hr {
   margin: 30px 0;
   font-size: 14px;
 }
+.download-button:hover{  
+  color: #ff8b38;
+  border: 2px solid #ff8b38;
+}
+.orange-download-button{
+  color: #ffffff;
+  border: 2px solid #ff8b38;
+  cursor: pointer;
+  background: none;
+  padding: 10px 30px;
+  margin: 30px 0;
+  font-size: 14px;  
+}
+.orange-download-button:hover{  
+  background-color: #aa5d27;
+  border: 2px solid #aa5d27;
+}
 .title-line {
   background: #ff8b38;
   height: 2px;

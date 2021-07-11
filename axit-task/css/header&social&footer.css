@@ -23,6 +23,9 @@ h1 {
   margin: 15px 20px;
   font-size: 13px;
 }
+.header-link:hover{
+  color: #ff8b38;
+}
 
 .social-links-section {
   padding: 10px 0;
@@ -44,7 +47,9 @@ h1 {
   font-size: 35px;
   margin: 10px 20px;
 }
-
+.social-icon i:hover{
+  color: #ff8b38;
+}
 .footer-section {
   background: #000000;
   padding: 10px;

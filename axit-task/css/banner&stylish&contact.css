@@ -38,6 +38,9 @@ form input {
   padding: 15px;
   width: 100%;
 }
+.banner-form input[type="submit"]:hover{
+  background-color: #aa5d27;
+}
 
 .stylish-section {
   background-image: url(../images/bg-city1.jpg);

@@ -57,6 +57,10 @@
   margin-right: 30px;
   margin-top: 10px;
 }
+.sub-icon:hover{   
+  color: #aa5d27;
+  border: 2px solid #aa5d27;
+}
 .sub-item-info {
   width: 80%;
   vertical-align: top;
