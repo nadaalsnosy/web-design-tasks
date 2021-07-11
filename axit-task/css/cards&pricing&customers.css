@@ -44,6 +44,7 @@
 .customers-section .card {
   width: 23%;
   text-align: left;
+  position: relative;
 }
 .customers-section .center-card {
   margin: 0 10%;
@@ -66,4 +67,14 @@
 .customer-info p {
   margin-top: 3px;
   font-size: 15px;
+}
+
+.triangle {
+  position: absolute;
+  left: 7%;
+  width: 0px;
+  height: 0px;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 16px solid #f5f5f5;
 }
