@@ -1,0 +1,49 @@
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #8d8d8d;
+  transition: color 0.5s;
+  font-size: 14px;
+}
+li {
+  list-style-type: none;
+  margin: 0 14px;
+}
+li:hover a {
+  color: #000000;
+}
+p {
+  color: #8d8d8d;
+  font-size: 14px;
+  line-height: 22px;
+  transition: color 0.5s;
+}
+.small-p {
+  font-size: 12px;
+}
+img {
+  width: 100%;
+}
+h3 {
+  font-size: 18px;
+}
+h4 {
+  font-size: 14px;
+  font-weight: unset;
+}

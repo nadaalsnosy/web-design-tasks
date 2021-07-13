@@ -1,0 +1,103 @@
+.main-section {
+  margin: 100px 0;
+}
+.main-section .flex {
+  align-items: flex-start;
+}
+.miss-trending-section {
+  width: 66%;
+}
+.common-section,
+.selected-items,
+.section-items {
+  margin-bottom: 40px;
+}
+.section-content {
+  margin-top: 40px;
+}
+.half-width {
+  width: 48%;
+}
+.card {
+  position: relative;
+  box-shadow: 0px 2px 10px 0px #eaeaea;
+}
+.section-items .card {
+  margin-bottom: 5px;
+}
+.card span {
+  position: absolute;
+  top: 20px;
+  left: 25px;
+  color: #0024f3;
+  background: #ffffff;
+  font-size: 13px;
+  padding: 5px;
+}
+.card-content {
+  padding: 17px;
+}
+.selected-items .card-content p {
+  margin: 15px 0;
+}
+.section-items .card img {
+  width: 28%;
+}
+.section-items .card {
+  height: 95px;
+}
+.card-content p {
+  margin-top: 5px;
+}
+
+.move-icons i {
+  color: #cccccc;
+  border: 2px solid #cccccc;
+  border-radius: 50%;
+  padding: 10px 12px;
+  margin: 0 5px;
+  transition: border 0.5s, color 0.5s, background-color 0.5s;
+}
+.move-icons i:hover {
+  background: #0024f3;
+  color: #ffffff;
+  border: 2px solid #0024f3;
+}
+.aside-section {
+  width: 32%;
+  border-left: 2px solid #dddddd52;
+}
+.aside-style {
+  padding: 25px 0 25px 25px;
+  border-bottom: 2px solid #dddddd52;
+}
+.aside-section h3 {
+  padding: 15px 0 15px 25px;
+}
+.aside-section .card {
+  height: 70px;
+}
+.icons-container {
+  transition: color 0.5s;
+}
+.icons-container i {
+  padding: 10px;
+  border: 2px solid #f8f8f8;
+  border-radius: 50%;
+}
+.aside-section .card img {
+  width: 23%;
+}
+.icons-container i:hover {
+  color: #0024f3;
+}
+.aside-last-div {
+  border-bottom: unset;
+  padding-bottom: 40px;
+}
+.aside-last-div h3{
+    padding: 20px 0;
+}
+.aside-section .section-items {
+  margin-bottom: 0;
+}
