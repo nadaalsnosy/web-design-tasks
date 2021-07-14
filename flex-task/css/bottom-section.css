@@ -1,7 +1,7 @@
 .middle-section {
   margin-bottom: 40px;
 }
-.bg-img.bg-img {
+.bg-img {
   width: 31.5%;
 }
 .bg-img .overlay {
@@ -25,6 +25,10 @@
   background: #fffffff8;
   font-size: 10px;
   padding: 5px 15px;
+}
+.bg-img span:hover {  
+  color: #ffffff;
+  background: #0024f3;
 }
 .bg-img h3 {
   margin: 20px 0;
@@ -63,7 +67,6 @@
   transform: translate(-50%, -75%);
   font-size: 12px;
   color: #8d8d8d;
-  transition: color 0.5s;
 }
 .play-icon:hover {
   color: #0024f3;
@@ -77,11 +80,49 @@
   border-radius: 20px;
   color: #8d8d8d;
   border: 2px solid #cecece;
-  background-color: #ffffff;
-  transition: border 0.5s, color 0.5s, background-color 0.5s;
+  background-color: #ffffff;  
 }
 .load-more:hover {
   background: #0024f3;
   color: #ffffff;
   border: 2px solid #0024f3;
+}
+footer {
+  background: #161616;
+  padding: 80px 0;
+}
+footer .bg-img h3{
+  color: #ffffff;
+  margin: 15px 0 20px;
+}
+footer .bg-img h2 {
+  color: #ffffff;
+  margin: 15px 0 25px;
+}
+.footer-links {
+  flex-wrap: wrap;
+  padding: 15px 0;
+}
+.footer-links li {
+  width: 25%;
+}
+.footer-links a:hover{
+  color: #0024f3;
+}
+.contact-input {
+  position: relative;
+}
+.contact-input i {
+  color: #8d8d8d;
+  position: absolute;
+  right: 7px;
+  top: 10px;
+  font-size: 15px;
+}
+.contact-input input {
+  width: 100%;
+  padding: 10px;
+  background: unset;
+  border: none;
+  border-bottom: 2px solid #8d8d8d;
 }

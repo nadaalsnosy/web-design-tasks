@@ -7,6 +7,19 @@
 .big-section {
   width: 66%;
 }
+.big-section .header-container{
+  padding: 0;
+}
+.big-section .header-container h3,
+.big-section .header-container li{
+  padding-bottom: 15px;
+}
+.big-section li:nth-child(1) {
+  border-bottom: 2px solid #0024f3;
+}
+.big-section li:nth-child(1) a{
+  color: #000000;
+}
 .common-section,
 .selected-items,
 .section-items {
@@ -34,6 +47,10 @@
   font-size: 10px;
   padding: 5px 15px;
 }
+.card span:hover {  
+  color: #ffffff;
+  background: #0024f3;
+}
 .card-content {
   padding: 17px;
 }
@@ -56,7 +73,6 @@
   border-radius: 50%;
   padding: 10px 12px;
   margin: 0 5px;
-  transition: border 0.5s, color 0.5s, background-color 0.5s;
 }
 .move-icons i:hover {
   background: #0024f3;
@@ -77,9 +93,6 @@
 .aside-section .card {
   height: 70px;
 }
-.icons-container {
-  transition: color 0.5s;
-}
 .icons-container i {
   padding: 10px;
   border: 2px solid #f8f8f8;
@@ -95,8 +108,8 @@
   border-bottom: unset;
   padding-bottom: 40px;
 }
-.main-section .aside-last-div h3{
-    padding: 20px 0;
+.main-section .aside-last-div h3 {
+  padding: 20px 0;
 }
 .aside-section .section-items {
   margin-bottom: 0;
