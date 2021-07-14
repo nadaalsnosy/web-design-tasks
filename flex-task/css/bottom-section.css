@@ -1,0 +1,87 @@
+.middle-section {
+  margin-bottom: 40px;
+}
+.bg-img.bg-img {
+  width: 31.5%;
+}
+.bg-img .overlay {
+  text-align: center;
+  padding: 15px;
+  background: #0000004d;
+  color: #ffffffe0;
+}
+.bg-img-1 {
+  background-image: url(../images/world-1.webp);
+}
+.bg-img-2 {
+  background-image: url(../images/world-2.webp);
+}
+.bg-img-3 {
+  background-image: url(../images/world-3.webp);
+}
+
+.bg-img span {
+  color: #0024f3;
+  background: #fffffff8;
+  font-size: 10px;
+  padding: 5px 15px;
+}
+.bg-img h3 {
+  margin: 20px 0;
+}
+.bottom-section .big-section .card {
+  height: 200px;
+}
+.bottom-section .aside-style {
+  padding: 15px 0;
+  margin: 25px 0;
+}
+.bottom-section .card-content {
+  padding: 25px;
+}
+.bottom-section .card-content p {
+  margin: 15px 0;
+  margin-right: 40px;
+}
+.bottom-section .aside-section {
+  border-left: unset;
+}
+.bottom-section .aside-section .card {
+  height: 405px;
+  margin-bottom: 5px;
+}
+.bottom-section .aside-section .card img {
+  height: unset;
+}
+.play-icon {
+  position: absolute;
+  background: #ffffff;
+  padding: 12px;
+  border-radius: 50%;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -75%);
+  font-size: 12px;
+  color: #8d8d8d;
+  transition: color 0.5s;
+}
+.play-icon:hover {
+  color: #0024f3;
+}
+.button {
+  text-align: center;
+  margin: 10px auto 70px;
+}
+.load-more {
+  padding: 10px 30px;
+  border-radius: 20px;
+  color: #8d8d8d;
+  border: 2px solid #cecece;
+  background-color: #ffffff;
+  transition: border 0.5s, color 0.5s, background-color 0.5s;
+}
+.load-more:hover {
+  background: #0024f3;
+  color: #ffffff;
+  border: 2px solid #0024f3;
+}
