@@ -60,9 +60,6 @@
 .section-items .card img {
   width: 28%;
 }
-.section-items .card {
-  height: 95px;
-}
 .card-content p {
   margin-top: 5px;
 }
@@ -89,9 +86,6 @@
 }
 .main-section .aside-section h3 {
   padding: 15px 0 15px 25px;
-}
-.aside-section .card {
-  height: 70px;
 }
 .icons-container i {
   padding: 10px;

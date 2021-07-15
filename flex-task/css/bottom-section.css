@@ -33,15 +33,15 @@
 .bg-img h3 {
   margin: 20px 0;
 }
-.bottom-section .big-section .card {
-  height: 200px;
-}
 .bottom-section .aside-style {
   padding: 15px 0;
   margin: 25px 0;
 }
-.bottom-section .card-content {
-  padding: 25px;
+.bottom-section .big-section .card-content {
+  padding: 15px 25px 5px;
+}
+.bottom-section .aside-section .card-content {
+  padding-bottom: 10px;
 }
 .bottom-section .card-content p {
   margin: 15px 0;
@@ -51,11 +51,7 @@
   border-left: unset;
 }
 .bottom-section .aside-section .card {
-  height: 405px;
-  margin-bottom: 5px;
-}
-.bottom-section .aside-section .card img {
-  height: unset;
+  margin-bottom: 13px;
 }
 .play-icon {
   position: absolute;
