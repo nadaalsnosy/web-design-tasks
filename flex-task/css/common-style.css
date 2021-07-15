@@ -6,7 +6,6 @@
   transition: all 0.5s;
 }
 body {
-  max-width: 1263px;
   margin: auto;
 }
 .flex {
@@ -14,6 +13,7 @@ body {
   justify-content: space-between;
 }
 .container {
+  max-width: 1263px;
   width: 85%;
   margin: auto;
 }

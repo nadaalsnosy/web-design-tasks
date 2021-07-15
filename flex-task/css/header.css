@@ -4,9 +4,7 @@ header {
 }
 header .container {
   height: 550px;
-  display: flex;
   flex-direction: column;
-  justify-content: space-between;
   padding: 20px 0;
 }
 .overlay {
@@ -15,8 +13,6 @@ header .container {
 }
 .header-container {
   border-bottom: 2px solid #dddddd52;
-  display: flex;
-  justify-content: space-between;
   padding: 15px 0;
 }
 header .header-container {
@@ -26,7 +22,6 @@ header .header-container {
   color: #ffffff;
 }
 .header-links {
-  display: flex;
   color: #8d8d8d;
 }
 header li:nth-child(1) a{
@@ -43,8 +38,6 @@ header a:hover {
   font-size: 20px;
 }
 .header-items {
-  display: flex;
-  justify-content: space-between;
   margin: 20px 0;
 }
 .header-item {
@@ -69,4 +62,9 @@ header a:hover {
 .header-item:hover p,
 .header-item:nth-child(2) p {
   color: #ffffff;
+}
+
+
+@media screen and (max-width: 650px) {
+  
 }
