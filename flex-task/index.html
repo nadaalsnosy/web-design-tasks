@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>flex Task</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -256,7 +257,7 @@
     </section>
     <section class="middle-section">
         <div class="container flex">
-            <div class="bg-img bg-img-1">
+            <div class="bg-img bg-img-1 wow flash" data-wow-duration="8s" data-wow-iteration="10">
                 <div class="overlay">
                     <span>TRAVEL</span>
                     <h3>How Did van Gogh’s Turbulent Mind Depict One of
@@ -264,7 +265,7 @@
                     <p class="small-p">Katy Liu on Sep 29, 2017 at 9:48 am</p>
                 </div>
             </div>
-            <div class="bg-img bg-img-2">
+            <div class="bg-img bg-img-2 wow flash" data-wow-duration="8s" data-wow-iteration="10">
                 <div class="overlay">
                     <span>TRAVEL</span>
                     <h3>How Did van Gogh’s Turbulent Mind Depict One of
@@ -272,7 +273,7 @@
                     <p class="small-p">Katy Liu on Sep 29, 2017 at 9:48 am</p>
                 </div>
             </div>
-            <div class="bg-img bg-img-3">
+            <div class="bg-img bg-img-3 wow flash" data-wow-duration="8s" data-wow-iteration="10">
                 <div class="overlay">
                     <span>TRAVEL</span>
                     <h3>How Did van Gogh’s Turbulent Mind Depict One of
@@ -394,6 +395,10 @@
             </div>
         </div>
     </footer>
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
 </body>
 
 </html>
