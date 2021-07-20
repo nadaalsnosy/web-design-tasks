@@ -44,7 +44,6 @@ header {
   border-radius: 4px;
 }
 
-
 .main-banner .container {
   position: relative;
   text-align: right;
@@ -194,7 +193,6 @@ header {
   background: #ffffff;
 }
 
-
 .works-section {
   padding: 60px 0;
 }
@@ -311,6 +309,67 @@ header {
   color: #ffffff;
 }
 
+footer {
+  background: #1f373d;
+  color: #ffffff;
+}
+footer .container {
+  padding: 40px 0 20px;
+}
+.footer-title-content {
+  border-bottom: 2px solid #8a8a8a;
+}
+.footer-title{
+  margin-top: 15px;
+}
+.footer-input {
+  position: relative;
+  margin: 40px 0 60px;
+}
+.footer-input input {
+  padding: 20px;
+  padding-right: 45px;
+  width: 100%;
+}
+.footer-input i {
+  cursor: pointer;
+  position: absolute;
+  font-size: 25px;
+  color: #000000;
+  top: 15px;
+  right: 15px;
+}
+.footer-content {
+  margin-right: 30%;
+  margin-top: 40px;
+}
+.footer-content h4 {
+  margin-bottom: 40px;
+}
+.footer-content p {
+  color: #ffffff;
+  margin: 5px 0;
+}
+.footer-container {
+  align-items: flex-start;
+}
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-top: 40px;
+}
+.footer-item h6 {
+  color: #8a8a8a;
+  margin-bottom: 15px;
+}
+.footer-item a {
+  color: #ffffff;
+  margin: 10px 0;
+}
+.footer-item a:hover {
+  color: #ffcc01;
+}
 
 @media screen and (min-width: 900px) {
   header {
@@ -417,4 +476,22 @@ header {
     padding-right: 10%;
     padding-left: unset;
   }
+  .footer-title-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-input {
+    width: 45%;
+  }
+  .footer-container{
+    margin: 40px 0;
+  }
+  .footer-content{
+    margin-right: 17%;
+  }
+  .footer-item {
+    width: unset;
+    margin-right: 6%;
+  }
+
 }
