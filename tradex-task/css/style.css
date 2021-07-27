@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+p {
+  font-family: "Open Sans", sans-serif !important;
+  color: gray;
+  line-height: 1.5rem;
+}
+.fs-l {
+  font-size: 60px;
+}
+.fs-8 {
+  font-size: 10px;
+}
+.fs-7 {
+  font-size: 14px;
+}
+.py-9 {
+  padding: 80px 0;
+}
+.py-10 {
+  padding: 150px 0;
+}
+.ps-11 {
+  padding-left: 170px;
+}
+.overlay {
+  background: #000000cc;
+  width: 100%;
+  height: 100%;
+}
+.blue-hover {
+  transition: all 0.7s;
+}
+.blue-hover:hover {
+  color: blue !important;
+}
+.w-auto{
+    width: auto;
+}
+.banner {
+  background: url(../images/slider1.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+.btn-outline-primary {
+  transition: all 0.3s ease !important;
+}
+.btn-outline-primary:hover {
+  color: #fff !important;
+  background-color: #0d6efd;
+  border-color: #0d6efd !important;
+}
+hr {
+  opacity: 1;
+  margin: 5px 0;
+}
+.hr-blue {
+  height: 2px !important;
+  background: blue;
+}
+.s-hr {
+  width: 40px;
+}
+.l-hr {
+  width: 70px;
+}
