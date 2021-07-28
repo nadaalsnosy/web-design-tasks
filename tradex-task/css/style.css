@@ -2,14 +2,19 @@
   box-sizing: border-box;
   font-family: "Josefin Sans", sans-serif;
 }
-
+body {
+  line-height: unset !important;
+}
 p {
   font-family: "Open Sans", sans-serif !important;
   color: gray;
   line-height: 1.5rem;
 }
-.fs-l {
+.fs-60 {
   font-size: 60px;
+}
+.fs-40 {
+  font-size: 40px;
 }
 .fs-2r {
   font-size: 32px;
@@ -20,14 +25,18 @@ p {
 .fs-7 {
   font-size: 14px;
 }
-.py-25 {
+
+.py10 {
+  padding: 10px 0;
+}
+.p-icon{
   padding: 25px 0;
 }
 .dd-p {
   padding: 10px 70px 10px 20px;
 }
 .py-9 {
-  padding: 80px 0;
+  padding: 60px 0;
 }
 .py-10 {
   padding: 150px 0;
@@ -38,8 +47,8 @@ p {
 .p-w {
   max-width: 660px;
 }
-.w-200{
-    width: 210px;
+.w-200 {
+  width: 215px;
 }
 .overlay {
   background: #000000cc;
@@ -107,7 +116,7 @@ hr {
 }
 .dropdown:hover .dropdown-menu {
   transform: translatex(0);
-  transition: all .3s ease;
+  transition: all 0.3s ease;
   visibility: visible;
 }
 .owl-1-carousel .owl-nav {
@@ -149,13 +158,15 @@ hr {
   width: 25px;
   height: 100px;
   background: #3181fa;
-  transition: left .6s ease;
+  transition: left 0.6s ease;
   z-index: -1;
 }
 .co-btn-blue:hover .hover-div {
-    left: 102%;
+  left: 102%;
 }
-
+.icons-section .card {
+  background: unset;
+}
 @media (min-width: 768px) {
   .col-1-5 {
     width: 20%;
@@ -177,7 +188,10 @@ hr {
     width: 250px;
   }
   .p-i {
-    padding: 20px 20px;
+    padding: 15px 20px;
+  }
+  .p-icon {
+    padding: 25px 10%;
   }
 }
 
@@ -197,5 +211,11 @@ hr {
   }
   .about-content {
     max-width: unset;
+  }
+}
+
+@media (min-width: 1200px) {
+  .p-icon {
+    padding: 25px 0;
   }
 }
