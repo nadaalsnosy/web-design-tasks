@@ -120,3 +120,46 @@
   border-color: unset;
   isolation: unset;
 }
+.bg-work {
+  padding-top: 100% !important;
+  padding: 0.5rem;
+}
+.bg-work1 {
+  background: url(../images/port2.jpg);
+  background-size: 100% 100%;
+}
+.bg-work2 {
+  background: url(../images/compute.jpg);
+  background-size: 100% 100%;
+}
+.bg-work3 {
+  background: url(../images/office.jpg);
+  background-size: 100% 100%;
+}
+.bg-work4 {
+  background: url(../images/port7.jpg);
+  background-size: 100% 100%;
+}
+.bg-work5 {
+  background: url(../images/suit.jpg);
+  background-size: 100% 100%;
+}
+.bg-work6 {
+  background: url(../images/port6.jpg);
+  background-size: 100% 100%;
+}
+.work-card {
+  background-color: #0d6dfdc5 !important;
+  transform: scaleX(0);
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+.bg-work:hover .work-card {
+  transform: scaleX(1);
+  opacity: 1;
+}
+.img-section {
+  background: url(../images/ecommerce-cover.jpg);
+  background-size: 100% 100%;
+  height: 1110px;
+}
