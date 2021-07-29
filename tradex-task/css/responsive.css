@@ -1,0 +1,61 @@
+@media (min-width: 768px) {
+  .col-1-5 {
+    width: 20%;
+  }
+  .col-10 {
+    width: 79%;
+  }
+  .col-1-5 i {
+    font-size: 32px !important;
+  }
+  .about-content {
+    max-width: 715px;
+  }
+  .about-icons {
+    position: absolute;
+    top: 20px;
+  }
+  .about-icons .col-10 p {
+    width: 250px;
+  }
+  .p-i {
+    padding: 15px 20px;
+  }
+  .px10 {
+    padding: 25px 10%;
+  }
+  .co-title {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  .owl-1-carousel .owl-dots {
+    bottom: unset;
+    top: 50%;
+    right: -400px;
+    transform: translate(-50%, -50%);
+    transform: rotate(-90deg);
+  }
+  .ps-11 {
+    padding-left: 150px;
+  }
+  .banner {
+    height: 574px;
+  }
+  .about-content {
+    max-width: unset;
+  }
+  .services-content {
+    padding: 4px 0.5% !important;
+  }
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+  .services-content {
+    padding: 20px 0.5% !important;
+  }
+}
