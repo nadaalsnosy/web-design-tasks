@@ -81,11 +81,19 @@
   width: 100%;
 }
 .btn-outline-primary {
-  transition: all 0.3s ease !important;
+  transition: all 0.2s ease !important;
 }
 .btn-outline-primary:hover {
   color: #fff !important;
   background-color: #0d6efd;
+  border-color: #0d6efd !important;
+}
+.btn-outline-white {
+  transition: all 0.2s ease !important;
+}
+.btn-outline-white:hover {
+  color: #0d6efd !important;
+  background-color: #ffffff;
   border-color: #0d6efd !important;
 }
 
@@ -106,13 +114,17 @@
 .hover-div {
   position: absolute;
   top: -30px;
-  left: -30px;
+  left: -40px;
   transform: rotate(20deg);
-  width: 25px;
+  width: 40px;
   height: 100px;
-  background: #3181fa;
+  background: #4791ff;
+  opacity: 0.5;
   transition: left 0.6s ease;
   z-index: -1;
+}
+.btn-outline-white .hover-div {
+  opacity: 0.2;
 }
 .services-content {
   opacity: 0;
