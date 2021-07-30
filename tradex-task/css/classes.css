@@ -9,32 +9,21 @@
 .blue-hover:hover {
   color: #3181fa !important;
 }
-.bg-img-1 {
-  background: url(../images/slider1.jpg);
+.dark-hover {
+  transition: color 0.4s;
 }
-.bg-img-2 {
-  background: url(../images/slider2.jpg);
+.dark-hover:hover {
+  color: #000000 !important;
 }
-.bg-img-3 {
-  background: url(../images/slider3.jpg);
+.co-btn-blue {
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
 }
-.bg-img-4 {
-  background: url(../images/ecommerce-cover.jpg);
+.co-btn-blue:hover .hover-div {
+  left: 102%;
 }
-.banner {
-  height: 742px;
-  background-position: center;
-  background-size: cover;
-  width: 100%;
-}
-.btn-outline-primary {
-  transition: all 0.3s ease !important;
-}
-.btn-outline-primary:hover {
-  color: #fff !important;
-  background-color: #0d6efd;
-  border-color: #0d6efd !important;
-}
+
 .navbar {
   z-index: 1000;
 }
@@ -72,14 +61,41 @@
   background: unset;
   border: 1px solid white;
 }
+
+.bg-img-1 {
+  background: url(../images/slider1.jpg);
+}
+.bg-img-2 {
+  background: url(../images/slider2.jpg);
+}
+.bg-img-3 {
+  background: url(../images/slider3.jpg);
+}
+.bg-img-4 {
+  background: url(../images/ecommerce-cover.jpg);
+}
+.banner {
+  height: 742px;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+.btn-outline-primary {
+  transition: all 0.3s ease !important;
+}
+.btn-outline-primary:hover {
+  color: #fff !important;
+  background-color: #0d6efd;
+  border-color: #0d6efd !important;
+}
+
 .about-icons {
   border-radius: unset;
 }
-.co-btn-blue {
-  position: relative;
-  overflow: hidden;
-  z-index: 0;
+.icons-section .card {
+  background: unset;
 }
+
 .services-section {
   background-image: url(../images/service-bg.jpg);
   background-position: center;
@@ -98,13 +114,6 @@
   transition: left 0.6s ease;
   z-index: -1;
 }
-.co-btn-blue:hover .hover-div {
-  left: 102%;
-}
-.icons-section .card {
-  background: unset;
-}
-
 .services-content {
   opacity: 0;
   height: 0;
@@ -158,8 +167,54 @@
   transform: scaleX(1);
   opacity: 1;
 }
+
 .img-section {
   background: url(../images/ecommerce-cover.jpg);
   background-size: 100% 100%;
   height: 1110px;
+}
+.bg-imgs {
+  padding-top: 100% !important;
+  padding: 0.5rem;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  height: 450px;
+}
+.bg-imgs1 {
+  background: url(../images/team1.png);
+}
+.bg-imgs2 {
+  background: url(../images/team2.png);
+}
+.bg-imgs3 {
+  background: url(../images/team3.png);
+}
+.bg-imgs4 {
+  background: url(../images/team4.png);
+}
+.bg-imgs5 {
+  background: url(../images/team5.png);
+}
+.bg-imgs6 {
+  background: url(../images/team6.png);
+}
+.imgs-content {
+  height: 20%;
+  transition: 0.3s linear;
+}
+.imgs-content ul {
+  margin-top: 25% !important;
+  height: 0;
+  transition: 0.5s linear;
+}
+.col-12:hover .imgs-content {
+  height: 50%;
+}
+.col-12:hover .imgs-content ul {
+  height: 25%;
+  margin-top: 0 !important;
+}
+.col-12:hover .imgs-content p {
+  border: none !important;
+  padding-top: unset !important;
 }

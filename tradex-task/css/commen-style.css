@@ -10,10 +10,10 @@ p {
   color: gray;
   line-height: 1.5rem;
 }
-.fs-18{
+.fs-18 {
   font-size: 18px;
 }
-.fs-25{
+.fs-25 {
   font-size: 25px;
 }
 .fs-50 {
@@ -43,16 +43,16 @@ p {
 .p-dd {
   padding: 10px 70px 10px 20px;
 }
-.pb-40{
+.pb-40 {
   padding-bottom: 40px;
 }
 .py-60 {
   padding: 60px 0;
 }
-.py-65{
+.py-65 {
   padding: 65px 0;
 }
-.py-80{
+.py-80 {
   padding: 80px 0;
 }
 .py-150 {
@@ -61,7 +61,7 @@ p {
 .p-i {
   padding: 20px 13px;
 }
-.mw-6{
+.mw-6 {
   max-width: 660px;
 }
 .w-200 {
@@ -87,4 +87,7 @@ hr {
 .col-1-5 {
   flex: 0 0 auto;
   width: 12%;
+}
+.t-bs {
+  box-shadow: 0px -15px 30px -10px #00000021;
 }
