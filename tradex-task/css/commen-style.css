@@ -16,6 +16,12 @@ p {
 .my-40 {
   margin: 40px 0;
 }
+.m-icons {
+  margin: 1rem 10%;
+}
+.mx-per {
+  margin: 0 10%;
+}
 .fs-18 {
   font-size: 18px;
 }
@@ -81,6 +87,9 @@ p {
 }
 .px-50 {
   padding: 0 50px;
+}
+.px-per {
+  padding: 0 10%;
 }
 .pb-40 {
   padding-bottom: 40px;
