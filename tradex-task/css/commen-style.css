@@ -10,10 +10,10 @@ p {
   color: gray;
   line-height: 1.5rem;
 }
-.my-30{
+.my-30 {
   margin: 30px 0;
 }
-.my-40{
+.my-40 {
   margin: 40px 0;
 }
 .fs-18 {
@@ -39,6 +39,9 @@ p {
 }
 .fs-7 {
   font-size: 14px;
+}
+.p-btn {
+  padding: 13px 35px;
 }
 .p-dd {
   padding: 10px 70px 10px 20px;
@@ -70,10 +73,13 @@ p {
 .py-150 {
   padding: 150px 0;
 }
-.px-40{
-padding: 0 40px;
+.px-30 {
+  padding: 0 30px;
 }
-.px-50{
+.px-40 {
+  padding: 0 40px;
+}
+.px-50 {
   padding: 0 50px;
 }
 .pb-40 {
@@ -108,4 +114,7 @@ hr {
 }
 .t-bs {
   box-shadow: 0px -15px 30px -10px #00000021;
+}
+.bg-black {
+  background: #000000 !important;
 }

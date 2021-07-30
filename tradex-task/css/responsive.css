@@ -37,6 +37,13 @@
   .rounded-pill-right {
     border-radius: 0 50rem 50rem 0 !important;
   }
+  .subscribe-form {
+    display: flex;
+    justify-content: space-between;
+  }
+  .w-100 {
+    width: 75% !important;
+  }
 }
 
 @media (min-width: 992px) {
@@ -58,6 +65,9 @@
   }
   .services-content {
     padding: 4px 0.5% !important;
+  }
+  .subscribe-form{
+      width: 50%;
   }
 }
 
