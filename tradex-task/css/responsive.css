@@ -27,6 +27,16 @@
   .co-title {
     font-size: 40px;
   }
+  .pricing-link {
+    padding: 1rem 4rem !important;
+    margin: 4px 0 !important;
+  }
+  .rounded-pill-left {
+    border-radius: 50rem 0 0 50rem !important;
+  }
+  .rounded-pill-right {
+    border-radius: 0 50rem 50rem 0 !important;
+  }
 }
 
 @media (min-width: 992px) {
