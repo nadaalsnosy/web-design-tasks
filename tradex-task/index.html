@@ -21,7 +21,7 @@
             <div class="header-left-part d-flex py-2">
                 <ul class="d-flex align-items-center m-0 border-end py-1 ps-0">
                     <li class="list-unstyled pe-3 fs-6"><a class="text-white" href="https://www.facebook.com"><i
-                                class="fab fa-facebook-f"></i></a></li>
+                                class="fa fa-facebook"></i></a></li>
                     <li class="list-unstyled pe-3 fs-6"><a class="text-white" href="https://twitter.com"><i
                                 class="fab fa-twitter"></i></a></li>
                     <li class="list-unstyled pe-3 fs-6"><a class="text-white" href="https://www.linkedin.com"><i
@@ -539,97 +539,189 @@
                     posuere dui. Proin consequat.</p>
             </div>
             <div class="work-content">
-                <ul class="py-25 mt-4 nav border-0 nav-tabs justify-content-center">
-                    <li class="nav-item px-2 pt-1 active">
-                        <a class="nav-link blue-hover border-0 text-dark" aria-current="page" href="#">All</a>
+                <ul class="nav nav-tabs py-25 mt-4 nav border-0 justify-content-center" id="myTab" role="tablist">
+                    <li class="nav-item px-2 pt-1" role="presentation">
+                        <button class="nav-link blue-hover border-0 text-dark active" id="all-tab" data-bs-toggle="tab"
+                            data-bs-target="#all" type="button" role="tab" aria-controls="all"
+                            aria-selected="true">All</button>
                     </li>
                     <li class="mt-2 pt-1">/</li>
-                    <li class="nav-item px-2 pt-1">
-                        <a class="nav-link blue-hover border-0 text-dark" href="#">Creative Design</a>
+                    <li class="nav-item px-2 pt-1" role="presentation">
+                        <button class="nav-link blue-hover border-0 text-dark" id="Creative-tab" data-bs-toggle="tab"
+                            data-bs-target="#Creative" type="button" role="tab" aria-controls="Creative"
+                            aria-selected="false">Creative Design</button>
                     </li>
                     <li class="mt-2 pt-1">/</li>
-                    <li class="nav-item px-2 pt-1">
-                        <a class="nav-link blue-hover border-0 text-dark" href="#">Developement</a>
+                    <li class="nav-item px-2 pt-1" role="presentation">
+                        <button class="nav-link blue-hover border-0 text-dark" id="Developement-tab"
+                            data-bs-toggle="tab" data-bs-target="#Developement" type="button" role="tab"
+                            aria-controls="Developement" aria-selected="false">Developement</button>
                     </li>
                     <li class="mt-2 pt-1">/</li>
-                    <li class="nav-item px-2 pt-1">
-                        <a class="nav-link blue-hover border-0 text-dark" href="#" tabindex="-1"
-                            aria-disabled="true">Graphic Design</a>
+                    <li class="nav-item px-2 pt-1" role="presentation">
+                        <button class="nav-link blue-hover border-0 text-dark" id="Graphic-tab" data-bs-toggle="tab"
+                            data-bs-target="#Graphic" type="button" role="tab" aria-controls="Graphic"
+                            aria-selected="false">Graphic Design</button>
                     </li>
                 </ul>
-                <div class="row mx-3">
-                    <div class="card-container col-12 col-md-6 col-lg-4 px-per">
-                        <div class="bg-work bg-work1 mt-4 rounded">
-                            <div
-                                class="work-card rounded text-white p-4 pb-3 d-flex justify-content-between align-items-center">
-                                <div class="work-content">
-                                    <h6 class="fs-7">Developement, Graphic Design</h6>
-                                    <h5 class="fs-18 m-0">Project Title01</h5>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
+                        <div class="row mx-3">
+                            <div class="card-container col-12 col-md-6 col-lg-4 px-per">
+                                <div class="bg-work bg-work1 mt-4 rounded">
+                                    <div
+                                        class="work-card rounded text-white p-4 pb-3 d-flex justify-content-between align-items-center">
+                                        <div class="work-content">
+                                            <h6 class="fs-7">Developement, Graphic Design</h6>
+                                            <h5 class="fs-18 m-0">Project Title01</h5>
+                                        </div>
+                                        <a class="fs-40 text-decoration-none text-white" href="#">+</a>
+                                    </div>
                                 </div>
-                                <a class="fs-40 text-decoration-none text-white" href="#">+</a>
+                            </div>
+                            <div class="card-container col-12 col-md-6 col-lg-4 px-per">
+                                <div class="bg-work bg-work2 mt-4 rounded">
+                                    <div
+                                        class="work-card rounded text-white p-4 pb-3 d-flex justify-content-between align-items-center">
+                                        <div class="work-content">
+                                            <h6 class="fs-7">Developement, Graphic Design</h6>
+                                            <h5 class="fs-18 m-0">Project Title02</h5>
+                                        </div>
+                                        <a class="fs-40 text-decoration-none text-white" href="#">+</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-container col-12 col-md-6 col-lg-4 px-per">
+                                <div class="bg-work bg-work3 mt-4 rounded">
+                                    <div
+                                        class="work-card rounded text-white p-4 pb-3 d-flex justify-content-between align-items-center">
+                                        <div class="work-content">
+                                            <h6 class="fs-7">Developement, Graphic Design</h6>
+                                            <h5 class="fs-18 m-0">Project Title03</h5>
+                                        </div>
+                                        <a class="fs-40 text-decoration-none text-white" href="#">+</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-container col-12 col-md-6 col-lg-4 px-per">
+                                <div class="bg-work bg-work4 mt-4 rounded">
+                                    <div
+                                        class="work-card rounded text-white p-4 pb-3 d-flex justify-content-between align-items-center">
+                                        <div class="work-content">
+                                            <h6 class="fs-7">Developement, Graphic Design</h6>
+                                            <h5 class="fs-18 m-0">Project Title04</h5>
+                                        </div>
+                                        <a class="fs-40 text-decoration-none text-white" href="#">+</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-container col-12 col-md-6 col-lg-4 px-per">
+                                <div class="bg-work bg-work5 mt-4 rounded">
+                                    <div
+                                        class="work-card rounded text-white p-4 pb-3 d-flex justify-content-between align-items-center">
+                                        <div class="work-content">
+                                            <h6 class="fs-7">Developement, Graphic Design</h6>
+                                            <h5 class="fs-18 m-0">Project Title05</h5>
+                                        </div>
+                                        <a class="fs-40 text-decoration-none text-white" href="#">+</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-container col-12 col-md-6 col-lg-4 px-per">
+                                <div class="bg-work bg-work6 mt-4 rounded">
+                                    <div
+                                        class="work-card rounded text-white p-4 pb-3 d-flex justify-content-between align-items-center">
+                                        <div class="work-content">
+                                            <h6 class="fs-7">Developement, Graphic Design</h6>
+                                            <h5 class="fs-18 m-0">Project Title06</h5>
+                                        </div>
+                                        <a class="fs-40 text-decoration-none text-white" href="#">+</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card-container col-12 col-md-6 col-lg-4 px-per">
-                        <div class="bg-work bg-work2 mt-4 rounded">
-                            <div
-                                class="work-card rounded text-white p-4 pb-3 d-flex justify-content-between align-items-center">
-                                <div class="work-content">
-                                    <h6 class="fs-7">Developement, Graphic Design</h6>
-                                    <h5 class="fs-18 m-0">Project Title02</h5>
+                    <div class="tab-pane fade" id="Creative" role="tabpanel" aria-labelledby="Creative-tab">
+                        <div class="row mx-3">
+                            <div class="card-container col-12 col-md-6 col-lg-4 px-per">
+                                <div class="bg-work bg-work3 mt-4 rounded">
+                                    <div
+                                        class="work-card rounded text-white p-4 pb-3 d-flex justify-content-between align-items-center">
+                                        <div class="work-content">
+                                            <h6 class="fs-7">Developement, Graphic Design</h6>
+                                            <h5 class="fs-18 m-0">Project Title03</h5>
+                                        </div>
+                                        <a class="fs-40 text-decoration-none text-white" href="#">+</a>
+                                    </div>
                                 </div>
-                                <a class="fs-40 text-decoration-none text-white" href="#">+</a>
+                            </div>
+                            <div class="card-container col-12 col-md-6 col-lg-4 px-per">
+                                <div class="bg-work bg-work4 mt-4 rounded">
+                                    <div
+                                        class="work-card rounded text-white p-4 pb-3 d-flex justify-content-between align-items-center">
+                                        <div class="work-content">
+                                            <h6 class="fs-7">Developement, Graphic Design</h6>
+                                            <h5 class="fs-18 m-0">Project Title04</h5>
+                                        </div>
+                                        <a class="fs-40 text-decoration-none text-white" href="#">+</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card-container col-12 col-md-6 col-lg-4 px-per">
-                        <div class="bg-work bg-work3 mt-4 rounded">
-                            <div
-                                class="work-card rounded text-white p-4 pb-3 d-flex justify-content-between align-items-center">
-                                <div class="work-content">
-                                    <h6 class="fs-7">Developement, Graphic Design</h6>
-                                    <h5 class="fs-18 m-0">Project Title03</h5>
+                    <div class="tab-pane fade" id="Developement" role="tabpanel" aria-labelledby="Developement-tab">
+                        <div class="row mx-3">
+                            <div class="card-container col-12 col-md-6 col-lg-4 px-per">
+                                <div class="bg-work bg-work1 mt-4 rounded">
+                                    <div
+                                        class="work-card rounded text-white p-4 pb-3 d-flex justify-content-between align-items-center">
+                                        <div class="work-content">
+                                            <h6 class="fs-7">Developement, Graphic Design</h6>
+                                            <h5 class="fs-18 m-0">Project Title01</h5>
+                                        </div>
+                                        <a class="fs-40 text-decoration-none text-white" href="#">+</a>
+                                    </div>
                                 </div>
-                                <a class="fs-40 text-decoration-none text-white" href="#">+</a>
+                            </div>
+                            <div class="card-container col-12 col-md-6 col-lg-4 px-per">
+                                <div class="bg-work bg-work2 mt-4 rounded">
+                                    <div
+                                        class="work-card rounded text-white p-4 pb-3 d-flex justify-content-between align-items-center">
+                                        <div class="work-content">
+                                            <h6 class="fs-7">Developement, Graphic Design</h6>
+                                            <h5 class="fs-18 m-0">Project Title02</h5>
+                                        </div>
+                                        <a class="fs-40 text-decoration-none text-white" href="#">+</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-container col-12 col-md-6 col-lg-4 px-per">
+                                <div class="bg-work bg-work3 mt-4 rounded">
+                                    <div
+                                        class="work-card rounded text-white p-4 pb-3 d-flex justify-content-between align-items-center">
+                                        <div class="work-content">
+                                            <h6 class="fs-7">Developement, Graphic Design</h6>
+                                            <h5 class="fs-18 m-0">Project Title03</h5>
+                                        </div>
+                                        <a class="fs-40 text-decoration-none text-white" href="#">+</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-container col-12 col-md-6 col-lg-4 px-per">
+                                <div class="bg-work bg-work5 mt-4 rounded">
+                                    <div
+                                        class="work-card rounded text-white p-4 pb-3 d-flex justify-content-between align-items-center">
+                                        <div class="work-content">
+                                            <h6 class="fs-7">Developement, Graphic Design</h6>
+                                            <h5 class="fs-18 m-0">Project Title05</h5>
+                                        </div>
+                                        <a class="fs-40 text-decoration-none text-white" href="#">+</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card-container col-12 col-md-6 col-lg-4 px-per">
-                        <div class="bg-work bg-work4 mt-4 rounded">
-                            <div
-                                class="work-card rounded text-white p-4 pb-3 d-flex justify-content-between align-items-center">
-                                <div class="work-content">
-                                    <h6 class="fs-7">Developement, Graphic Design</h6>
-                                    <h5 class="fs-18 m-0">Project Title04</h5>
-                                </div>
-                                <a class="fs-40 text-decoration-none text-white" href="#">+</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-container col-12 col-md-6 col-lg-4 px-per">
-                        <div class="bg-work bg-work5 mt-4 rounded">
-                            <div
-                                class="work-card rounded text-white p-4 pb-3 d-flex justify-content-between align-items-center">
-                                <div class="work-content">
-                                    <h6 class="fs-7">Developement, Graphic Design</h6>
-                                    <h5 class="fs-18 m-0">Project Title05</h5>
-                                </div>
-                                <a class="fs-40 text-decoration-none text-white" href="#">+</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-container col-12 col-md-6 col-lg-4 px-per">
-                        <div class="bg-work bg-work6 mt-4 rounded">
-                            <div
-                                class="work-card rounded text-white p-4 pb-3 d-flex justify-content-between align-items-center">
-                                <div class="work-content">
-                                    <h6 class="fs-7">Developement, Graphic Design</h6>
-                                    <h5 class="fs-18 m-0">Project Title06</h5>
-                                </div>
-                                <a class="fs-40 text-decoration-none text-white" href="#">+</a>
-                            </div>
-                        </div>
-                    </div>
+                    <div class="tab-pane fade" id="Graphic" role="tabpanel" aria-labelledby="Graphic-tab">...</div>
                 </div>
             </div>
         </div>
@@ -637,7 +729,7 @@
 
     <section class="img-section"></section>
 
-    <section class="team-section">
+    <section class="team-section bg-cream">
         <div class="container py-80 pb-40">
             <div class="commen-head text-center">
                 <div class="common-title d-flex align-items-center justify-content-center">
@@ -656,7 +748,7 @@
                     labore et dolore. Lorem ipsum dolor sit amet, consectetur adipisicing
                     elit, sed do eiusm dipisicing elit, sed do eiusmod tempor.</p>
             </div>
-            <div class="work-content">
+            <div class="team-content">
                 <div class="row mx-3">
                     <div class="card-container col-12 col-md-6 col-lg-4 px-per">
                         <div class="bg-imgs bg-imgs1 mt-4 rounded overflow-hidden position-relative">
@@ -664,7 +756,7 @@
                                 class="imgs-content position-absolute p-2 py-3 w-100 bottom-0 start-0 bg-white t-bs text-center">
                                 <a class="text-decoration-none fs-18 text-dark" href="#">Jen Whyan</a>
                                 <h6 class="fs-7 m-3 text-primary">Founder</h6>
-                                <p class=" m-md-2 fs-7 border-top border-dark border-2 pt-3">Nam pretium turpis et arcu.
+                                <p class=" m-md-2 fs-7 border-top border-dark border-2 pt-4">Nam pretium turpis et arcu.
                                     Duis
                                     arcu tortor, suscipit eget,
                                     imperdiet nec, imperdiet
@@ -672,7 +764,7 @@
                                 <ul
                                     class="d-flex align-items-center justify-content-center m-0 border-end py-1 ps-0 bg-primary rounded-top">
                                     <li class="list-unstyled p-2 px-3 fs-7"><a class="text-white dark-hover"
-                                            href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+                                            href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
                                     <li class="list-unstyled p-2 px-3 fs-7"><a class="text-white dark-hover"
                                             href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>
                                     <li class="list-unstyled p-2 px-3 fs-7"><a class="text-white dark-hover"
@@ -691,7 +783,7 @@
                                 class="imgs-content position-absolute p-2 py-3 w-100 bottom-0 start-0 bg-white t-bs text-center">
                                 <a class="text-decoration-none fs-18 text-dark" href="#">Mical Peterson</a>
                                 <h6 class="fs-7 m-3 text-primary">Founder</h6>
-                                <p class=" m-md-2 fs-7 border-top border-dark border-2 pt-3">Nam pretium turpis et arcu.
+                                <p class=" m-md-2 fs-7 border-top border-dark border-2 pt-4">Nam pretium turpis et arcu.
                                     Duis
                                     arcu tortor, suscipit eget,
                                     imperdiet nec, imperdiet
@@ -699,7 +791,7 @@
                                 <ul
                                     class="d-flex align-items-center justify-content-center m-0 border-end py-1 ps-0 bg-primary rounded-top">
                                     <li class="list-unstyled p-2 px-3 fs-7"><a class="text-white dark-hover"
-                                            href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+                                            href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
                                     <li class="list-unstyled p-2 px-3 fs-7"><a class="text-white dark-hover"
                                             href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>
                                     <li class="list-unstyled p-2 px-3 fs-7"><a class="text-white dark-hover"
@@ -718,7 +810,7 @@
                                 class="imgs-content position-absolute p-2 py-3 w-100 bottom-0 start-0 bg-white t-bs text-center">
                                 <a class="text-decoration-none fs-18 text-dark" href="#">Sara Corner</a>
                                 <h6 class="fs-7 m-3 text-primary">Founder</h6>
-                                <p class=" m-md-2 fs-7 border-top border-dark border-2 pt-3">Nam pretium turpis et arcu.
+                                <p class=" m-md-2 fs-7 border-top border-dark border-2 pt-4">Nam pretium turpis et arcu.
                                     Duis
                                     arcu tortor, suscipit eget,
                                     imperdiet nec, imperdiet
@@ -726,7 +818,7 @@
                                 <ul
                                     class="d-flex align-items-center justify-content-center m-0 border-end py-1 ps-0 bg-primary rounded-top">
                                     <li class="list-unstyled p-2 px-3 fs-7"><a class="text-white dark-hover"
-                                            href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+                                            href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
                                     <li class="list-unstyled p-2 px-3 fs-7"><a class="text-white dark-hover"
                                             href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>
                                     <li class="list-unstyled p-2 px-3 fs-7"><a class="text-white dark-hover"
@@ -745,7 +837,7 @@
                                 class="imgs-content position-absolute p-2 py-3 w-100 bottom-0 start-0 bg-white t-bs text-center">
                                 <a class="text-decoration-none fs-18 text-dark" href="#">Milly Jackson</a>
                                 <h6 class="fs-7 m-3 text-primary">Founder</h6>
-                                <p class=" m-md-2 fs-7 border-top border-dark border-2 pt-3">Nam pretium turpis et arcu.
+                                <p class=" m-md-2 fs-7 border-top border-dark border-2 pt-4">Nam pretium turpis et arcu.
                                     Duis
                                     arcu tortor, suscipit eget,
                                     imperdiet nec, imperdiet
@@ -753,7 +845,7 @@
                                 <ul
                                     class="d-flex align-items-center justify-content-center m-0 border-end py-1 ps-0 bg-primary rounded-top">
                                     <li class="list-unstyled p-2 px-3 fs-7"><a class="text-white dark-hover"
-                                            href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+                                            href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
                                     <li class="list-unstyled p-2 px-3 fs-7"><a class="text-white dark-hover"
                                             href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>
                                     <li class="list-unstyled p-2 px-3 fs-7"><a class="text-white dark-hover"
@@ -772,7 +864,7 @@
                                 class="imgs-content position-absolute p-2 py-3 w-100 bottom-0 start-0 bg-white t-bs text-center">
                                 <a class="text-decoration-none fs-18 text-dark" href="#">Clark Jackson</a>
                                 <h6 class="fs-7 m-3 text-primary">Founder</h6>
-                                <p class=" m-md-2 fs-7 border-top border-dark border-2 pt-3">Nam pretium turpis et arcu.
+                                <p class=" m-md-2 fs-7 border-top border-dark border-2 pt-4">Nam pretium turpis et arcu.
                                     Duis
                                     arcu tortor, suscipit eget,
                                     imperdiet nec, imperdiet
@@ -780,7 +872,7 @@
                                 <ul
                                     class="d-flex align-items-center justify-content-center m-0 border-end py-1 ps-0 bg-primary rounded-top">
                                     <li class="list-unstyled p-2 px-3 fs-7"><a class="text-white dark-hover"
-                                            href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+                                            href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
                                     <li class="list-unstyled p-2 px-3 fs-7"><a class="text-white dark-hover"
                                             href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>
                                     <li class="list-unstyled p-2 px-3 fs-7"><a class="text-white dark-hover"
@@ -799,7 +891,7 @@
                                 class="imgs-content position-absolute p-2 py-3 w-100 bottom-0 start-0 bg-white t-bs text-center">
                                 <a class="text-decoration-none fs-18 text-dark" href="#">John Jojo</a>
                                 <h6 class="fs-7 m-3 text-primary">Founder</h6>
-                                <p class=" m-md-2 fs-7 border-top border-dark border-2 pt-3">Nam pretium turpis et arcu.
+                                <p class=" m-md-2 fs-7 border-top border-dark border-2 pt-4">Nam pretium turpis et arcu.
                                     Duis
                                     arcu tortor, suscipit eget,
                                     imperdiet nec, imperdiet
@@ -807,7 +899,7 @@
                                 <ul
                                     class="d-flex align-items-center justify-content-center m-0 border-end py-1 ps-0 bg-primary rounded-top">
                                     <li class="list-unstyled p-2 px-3 fs-7"><a class="text-white dark-hover"
-                                            href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+                                            href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
                                     <li class="list-unstyled p-2 px-3 fs-7"><a class="text-white dark-hover"
                                             href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>
                                     <li class="list-unstyled p-2 px-3 fs-7"><a class="text-white dark-hover"
@@ -845,85 +937,232 @@
                     lectus, eu varius lorem mauris posuere dui. Proin consequat.</p>
             </div>
             <div class="pricing-content">
-                <ul class="py-25 mt-4 nav border-0 nav-tabs justify-content-center">
-                    <a class="nav-link pricing-link rounded-pill-left rounded-pill border border-primary fs-18 p-4 m-1 text-white bg-primary"
-                        aria-current="page" href="#">Per / Month</a>
-                    <a class="nav-link pricing-link rounded-pill-right rounded-pill border border-primary fs-18 p-4 m-1 text-primary"
-                        href="#">Per / Year</a>
+                <ul class="nav nav-tabs py-25 mt-4 border-0 justify-content-center" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button
+                            class="nav-link pricing-link rounded-pill-left rounded-pill border border-primary fs-18 p-4 m-1 text-white bg-primary active"
+                            id="month-tab" data-bs-toggle="tab" data-bs-target="#month" type="button" role="tab"
+                            aria-controls="month" aria-selected="true">Per / Month</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button
+                            class="nav-link pricing-link rounded-pill-right rounded-pill border border-primary fs-18 p-4 m-1 text-primary"
+                            id="year-tab" data-bs-toggle="tab" data-bs-target="#year" type="button" role="tab"
+                            aria-controls="year" aria-selected="false">Per / Year</button>
+                    </li>
                 </ul>
-                <div class="row mx-3 my-40 justify-content-center">
-                    <div class="card-container col-10 col-md-6 col-lg-4 px-50 border rounded text-center my-4">
-                        <div class="pricing-info py-30 border-bottom">
-                            <h1 class="fs-40 m-0">Personal</h1>
-                            <hr class="pricing-hr">
-                            <h3 class="fs-18 pt-3">From <span class="text-primary">$399</span></h3>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="month" role="tabpanel" aria-labelledby="month-tab">
+                        <div class="row mx-3 my-40 justify-content-center">
+                            <div class="card-container col-12 col-md-6 col-lg-4 p-0">
+                                <div class="m-pricing px-50 border rounded text-center my-4">
+                                    <div class="pricing-info py-30 border-bottom">
+                                        <h1 class="fs-40 m-0">Personal</h1>
+                                        <hr class="pricing-hr">
+                                        <h3 class="fs-18 pt-3">From <span class="text-primary">$399</span></h3>
+                                    </div>
+                                    <div class="pricing-info py-40 border-bottom">
+                                        <h3 class="fs-18"><i class="text-primary fas fa-check"></i> 03 PSD Pack </h3>
+                                        <p class="m-0 pb-1">Lorem ipsum dolor sit amet, consectetuer Aenean commodo
+                                            ligula
+                                        </p>
+                                    </div>
+                                    <div class="pricing-info py-40 border-bottom">
+                                        <h3 class="fs-18"><i class="text-primary fas fa-check"></i> 03 Wordpress Pack
+                                        </h3>
+                                        <p class="m-0 pb-1">Lorem ipsum dolor sit amet, consectetuer Aenean commodo
+                                            ligula
+                                        </p>
+                                    </div>
+                                    <div class="pricing-info py-40 border-bottom">
+                                        <h3 class="fs-18"><i class="text-primary fas fa-check"></i> 120 Support Tiket
+                                        </h3>
+                                        <p class="m-0 pb-1">Lorem ipsum dolor sit amet, consectetuer Aenean commodo
+                                            ligula
+                                        </p>
+                                    </div>
+                                    <button
+                                        class="bg-primary btn btn-outline-primary my-30 py-3 px-40 btn-lg text-white rounded-pill border-2 co-btn-blue fs-7">
+                                        <div class="hover-div"></div>
+                                        GET STARTED NOW
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="card-container col-12 col-md-6 col-lg-4 p-0">
+                                <div class="m-pricing px-50 border rounded text-center my-4 shadow-lg">
+                                    <div class="pricing-info py-30 border-bottom">
+                                        <h1 class="fs-40 m-0">Business</h1>
+                                        <hr class="pricing-hr">
+                                        <h3 class="fs-18 pt-3">From <span class="text-primary">$899</span></h3>
+                                    </div>
+                                    <div class="pricing-info py-40 border-bottom">
+                                        <h3 class="fs-18"><i class="text-primary fas fa-check"></i> 05 PSD Pack </h3>
+                                        <p class="m-0 pb-1">Lorem ipsum dolor sit amet, consectetuer Aenean commodo
+                                            ligula
+                                        </p>
+                                    </div>
+                                    <div class="pricing-info py-40 border-bottom">
+                                        <h3 class="fs-18"><i class="text-primary fas fa-check"></i> 05 Wordpress Pack
+                                        </h3>
+                                        <p class="m-0 pb-1">Lorem ipsum dolor sit amet, consectetuer Aenean commodo
+                                            ligula
+                                        </p>
+                                    </div>
+                                    <div class="pricing-info py-40 border-bottom">
+                                        <h3 class="fs-18"><i class="text-primary fas fa-check"></i> 1000 Support Tiket
+                                        </h3>
+                                        <p class="m-0 pb-1">Lorem ipsum dolor sit amet, consectetuer Aenean commodo
+                                            ligula
+                                        </p>
+                                    </div>
+                                    <button
+                                        class="bg-white btn btn-outline-white border-primary my-30 py-3 px-40 btn-lg text-primary rounded-pill border-2 co-btn-blue fs-7">
+                                        <div class="hover-div"></div>
+                                        GET STARTED NOW
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="card-container col-12 col-md-6 col-lg-4 p-0">
+                                <div class="m-pricing px-50 border rounded text-center my-4">
+                                    <div class="pricing-info py-30 border-bottom">
+                                        <h1 class="fs-40 m-0">Ultimate</h1>
+                                        <hr class="pricing-hr">
+                                        <h3 class="fs-18 pt-3">From <span class="text-primary">$499</span></h3>
+                                    </div>
+                                    <div class="pricing-info py-40 border-bottom">
+                                        <h3 class="fs-18"><i class="text-primary fas fa-check"></i> 20 PSD Pack </h3>
+                                        <p class="m-0 pb-1">Lorem ipsum dolor sit amet, consectetuer Aenean commodo
+                                            ligula
+                                        </p>
+                                    </div>
+                                    <div class="pricing-info py-40 border-bottom">
+                                        <h3 class="fs-18"><i class="text-primary fas fa-check"></i> 20 Wordpress Pack
+                                        </h3>
+                                        <p class="m-0 pb-1">Lorem ipsum dolor sit amet, consectetuer Aenean commodo
+                                            ligula
+                                        </p>
+                                    </div>
+                                    <div class="pricing-info py-40 border-bottom">
+                                        <h3 class="fs-18"><i class="text-primary fas fa-check"></i> 1500 Support Tiket
+                                        </h3>
+                                        <p class="m-0 pb-1">Lorem ipsum dolor sit amet, consectetuer Aenean commodo
+                                            ligula
+                                        </p>
+                                    </div>
+                                    <button
+                                        class="bg-primary btn btn-outline-primary my-30 py-3 px-40 btn-lg text-white rounded-pill border-2 co-btn-blue fs-7">
+                                        <div class="hover-div"></div>
+                                        GET STARTED NOW
+                                    </button>
+                                </div>
+                            </div>
                         </div>
-                        <div class="pricing-info py-40 border-bottom">
-                            <h3 class="fs-18"><i class="text-primary fas fa-check"></i> 03 PSD Pack </h3>
-                            <p class="m-0 pb-1">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
-                        </div>
-                        <div class="pricing-info py-40 border-bottom">
-                            <h3 class="fs-18"><i class="text-primary fas fa-check"></i> 03 Wordpress Pack </h3>
-                            <p class="m-0 pb-1">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
-                        </div>
-                        <div class="pricing-info py-40 border-bottom">
-                            <h3 class="fs-18"><i class="text-primary fas fa-check"></i> 120 Support Tiket </h3>
-                            <p class="m-0 pb-1">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
-                        </div>
-                        <button
-                            class="bg-primary btn btn-outline-primary my-30 py-3 px-40 btn-lg text-white rounded-pill border-2 co-btn-blue fs-7">
-                            <div class="hover-div"></div>
-                            GET STARTED NOW
-                        </button>
                     </div>
-                    <div
-                        class="card-container col-10 col-md-6 col-lg-4 px-50 border rounded text-center my-4 shadow-lg">
-                        <div class="pricing-info py-30 border-bottom">
-                            <h1 class="fs-40 m-0">Business</h1>
-                            <hr class="pricing-hr">
-                            <h3 class="fs-18 pt-3">From <span class="text-primary">$899</span></h3>
+                    <div class="tab-pane fade" id="year" role="tabpanel" aria-labelledby="year-tab">
+                        <div class="row mx-3 my-40 justify-content-center">
+                            <div class="card-container col-12 col-md-6 col-lg-4 p-0">
+                                <div class="m-pricing px-50 border rounded text-center my-4">
+                                    <div class="pricing-info py-30 border-bottom">
+                                        <h1 class="fs-40 m-0">Business</h1>
+                                        <hr class="pricing-hr">
+                                        <h3 class="fs-18 pt-3">From <span class="text-primary">$899</span></h3>
+                                    </div>
+                                    <div class="pricing-info py-40 border-bottom">
+                                        <h3 class="fs-18"><i class="text-primary fas fa-check"></i> 05 PSD Pack </h3>
+                                        <p class="m-0 pb-1">Lorem ipsum dolor sit amet, consectetuer Aenean commodo
+                                            ligula
+                                        </p>
+                                    </div>
+                                    <div class="pricing-info py-40 border-bottom">
+                                        <h3 class="fs-18"><i class="text-primary fas fa-check"></i> 05 Wordpress Pack
+                                        </h3>
+                                        <p class="m-0 pb-1">Lorem ipsum dolor sit amet, consectetuer Aenean commodo
+                                            ligula
+                                        </p>
+                                    </div>
+                                    <div class="pricing-info py-40 border-bottom">
+                                        <h3 class="fs-18"><i class="text-primary fas fa-check"></i> 1000 Support Tiket
+                                        </h3>
+                                        <p class="m-0 pb-1">Lorem ipsum dolor sit amet, consectetuer Aenean commodo
+                                            ligula
+                                        </p>
+                                    </div>
+                                    <button
+                                        class="bg-white btn btn-outline-white border-primary my-30 py-3 px-40 btn-lg text-primary rounded-pill border-2 co-btn-blue fs-7">
+                                        <div class="hover-div"></div>
+                                        GET STARTED NOW
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="card-container col-12 col-md-6 col-lg-4 p-0">
+                                <div class="m-pricing px-50 border rounded text-center my-4">
+                                    <div class="pricing-info py-30 border-bottom">
+                                        <h1 class="fs-40 m-0">Ultimate</h1>
+                                        <hr class="pricing-hr">
+                                        <h3 class="fs-18 pt-3">From <span class="text-primary">$499</span></h3>
+                                    </div>
+                                    <div class="pricing-info py-40 border-bottom">
+                                        <h3 class="fs-18"><i class="text-primary fas fa-check"></i> 20 PSD Pack </h3>
+                                        <p class="m-0 pb-1">Lorem ipsum dolor sit amet, consectetuer Aenean commodo
+                                            ligula
+                                        </p>
+                                    </div>
+                                    <div class="pricing-info py-40 border-bottom">
+                                        <h3 class="fs-18"><i class="text-primary fas fa-check"></i> 20 Wordpress Pack
+                                        </h3>
+                                        <p class="m-0 pb-1">Lorem ipsum dolor sit amet, consectetuer Aenean commodo
+                                            ligula
+                                        </p>
+                                    </div>
+                                    <div class="pricing-info py-40 border-bottom">
+                                        <h3 class="fs-18"><i class="text-primary fas fa-check"></i> 1500 Support Tiket
+                                        </h3>
+                                        <p class="m-0 pb-1">Lorem ipsum dolor sit amet, consectetuer Aenean commodo
+                                            ligula
+                                        </p>
+                                    </div>
+                                    <button
+                                        class="bg-primary btn btn-outline-primary my-30 py-3 px-40 btn-lg text-white rounded-pill border-2 co-btn-blue fs-7">
+                                        <div class="hover-div"></div>
+                                        GET STARTED NOW
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="card-container col-12 col-md-6 col-lg-4 p-0">
+                                <div class="m-pricing px-50 border rounded text-center my-4 shadow-lg">
+                                    <div class="pricing-info py-30 border-bottom">
+                                        <h1 class="fs-40 m-0">Personal</h1>
+                                        <hr class="pricing-hr">
+                                        <h3 class="fs-18 pt-3">From <span class="text-primary">$399</span></h3>
+                                    </div>
+                                    <div class="pricing-info py-40 border-bottom">
+                                        <h3 class="fs-18"><i class="text-primary fas fa-check"></i> 03 PSD Pack </h3>
+                                        <p class="m-0 pb-1">Lorem ipsum dolor sit amet, consectetuer Aenean commodo
+                                            ligula
+                                        </p>
+                                    </div>
+                                    <div class="pricing-info py-40 border-bottom">
+                                        <h3 class="fs-18"><i class="text-primary fas fa-check"></i> 03 Wordpress Pack
+                                        </h3>
+                                        <p class="m-0 pb-1">Lorem ipsum dolor sit amet, consectetuer Aenean commodo
+                                            ligula
+                                        </p>
+                                    </div>
+                                    <div class="pricing-info py-40 border-bottom">
+                                        <h3 class="fs-18"><i class="text-primary fas fa-check"></i> 120 Support Tiket
+                                        </h3>
+                                        <p class="m-0 pb-1">Lorem ipsum dolor sit amet, consectetuer Aenean commodo
+                                            ligula
+                                        </p>
+                                    </div>
+                                    <button
+                                        class="bg-primary btn btn-outline-primary my-30 py-3 px-40 btn-lg text-white rounded-pill border-2 co-btn-blue fs-7">
+                                        <div class="hover-div"></div>
+                                        GET STARTED NOW
+                                    </button>
+                                </div>
+                            </div>
                         </div>
-                        <div class="pricing-info py-40 border-bottom">
-                            <h3 class="fs-18"><i class="text-primary fas fa-check"></i> 05 PSD Pack </h3>
-                            <p class="m-0 pb-1">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
-                        </div>
-                        <div class="pricing-info py-40 border-bottom">
-                            <h3 class="fs-18"><i class="text-primary fas fa-check"></i> 05 Wordpress Pack </h3>
-                            <p class="m-0 pb-1">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
-                        </div>
-                        <div class="pricing-info py-40 border-bottom">
-                            <h3 class="fs-18"><i class="text-primary fas fa-check"></i> 1000 Support Tiket </h3>
-                            <p class="m-0 pb-1">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
-                        </div>
-                        <button
-                            class="bg-white btn btn-outline-white border-primary my-30 py-3 px-40 btn-lg text-primary rounded-pill border-2 co-btn-blue fs-7">
-                            <div class="hover-div"></div>
-                            GET STARTED NOW
-                        </button>
-                    </div>
-                    <div class="card-container col-10 col-md-6 col-lg-4 px-50 border rounded text-center my-4">
-                        <div class="pricing-info py-30 border-bottom">
-                            <h1 class="fs-40 m-0">Ultimate</h1>
-                            <hr class="pricing-hr">
-                            <h3 class="fs-18 pt-3">From <span class="text-primary">$499</span></h3>
-                        </div>
-                        <div class="pricing-info py-40 border-bottom">
-                            <h3 class="fs-18"><i class="text-primary fas fa-check"></i> 20 PSD Pack </h3>
-                            <p class="m-0 pb-1">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
-                        </div>
-                        <div class="pricing-info py-40 border-bottom">
-                            <h3 class="fs-18"><i class="text-primary fas fa-check"></i> 20 Wordpress Pack </h3>
-                            <p class="m-0 pb-1">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
-                        </div>
-                        <div class="pricing-info py-40 border-bottom">
-                            <h3 class="fs-18"><i class="text-primary fas fa-check"></i> 1500 Support Tiket </h3>
-                            <p class="m-0 pb-1">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
-                        </div>
-                        <button
-                            class="bg-primary btn btn-outline-primary my-30 py-3 px-40 btn-lg text-white rounded-pill border-2 co-btn-blue fs-7">
-                            <div class="hover-div"></div>
-                            GET STARTED NOW
-                        </button>
                     </div>
                 </div>
             </div>
@@ -1028,6 +1267,198 @@
             </div>
         </div>
     </section>
+
+    <section class="blog-section bg-cream">
+        <div class="container py-80 pb-40">
+            <div class="commen-head text-center">
+                <div class="common-title d-flex align-items-center justify-content-center">
+                    <div class="lines m-2 text-end">
+                        <hr class="hr-blue l-hr">
+                    </div>
+                    <h1 class="m-3 mb-2 co-title">Latest Blog
+                    </h1>
+                    <div class="lines m-2">
+                        <hr class="hr-blue l-hr">
+                    </div>
+                </div>
+                <p class="m-3 mx-auto px-4 fs-7 mw-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor. incididunt ut labore et dolore. Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit, sed do eiusm dipisicing elit, sed do eiusmod tempor.</p>
+            </div>
+            <div class="row mx-3 justify-content-center">
+                <div class="card-container col-12 col-md-6 col-lg-4 p-4">
+                    <div class="blog-card rounded shadow">
+                        <div class="blog-img overflow-hidden">
+                            <img src="images/bg1.png" class="w-100">
+                        </div>
+                        <div class="blog-container">
+                            <ul
+                                class="d-flex align-items-center justify-content-center m-0 border-end py-1 ps-0 bg-dark">
+                                <li class="list-unstyled p-2 px-3 fs-7"><a class="text-white dark-hover"
+                                        href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+                                <li class="list-unstyled p-2 px-3 fs-7"><a class="text-white dark-hover"
+                                        href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>
+                                <li class="list-unstyled p-2 px-3 fs-7"><a class="text-white dark-hover"
+                                        href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li class="list-unstyled p-2 px-3 fs-6 "><a class="text-white dark-hover"
+                                        href="https://www.google.com"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li class="list-unstyled p-2 px-3 fs-7"><a class="text-white dark-hover"
+                                        href="https://www.instagram.com"><i class="fab fa-tumblr"></i></a></li>
+                            </ul>
+                            <div class="blog-content p-4">
+                                <h3 class="fs-18 mb-3 lh-base">Four Ways To Cheer And Plan Your Self Up On Blue</h3>
+                                <span class="fs-8 text-gray pe-3 py-1 border-end border-dark"><i
+                                        class="fa fa-user-o"></i>
+                                    By Dtm_demo</span>
+                                <span class="fs-8 text-gray ps-3 py-1"><i
+                                        class="fab flaticon-calendar-with-spring-binder-and-date-blocks"></i> 19
+                                    Dec
+                                    2018</span>
+                                <hr class="hr-blue l-hr mt-3 mb-0">
+                                <p class="position-relative fs-7 border-top pt-3">
+                                    Lorem ipsum dolor sit amet, rcquisc adipiscing elit.
+                                    Aenean socada commodo liga uala egets dssdolor....
+                                </p>
+                                <a class="fs-7 pt-2 text-dark text-decoration-none">Read More <i
+                                        class="ms-1 fs-6 fas fa-long-arrow-alt-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container col-12 col-md-6 col-lg-4 p-4">
+                    <div class="blog-card rounded shadow">
+                        <div class="blog-img overflow-hidden">
+                            <img src="images/bg2.jpg" class="w-100">
+                        </div>
+                        <div class="blog-container">
+                            <ul
+                                class="d-flex align-items-center justify-content-center m-0 border-end py-1 ps-0 bg-dark">
+                                <li class="list-unstyled p-2 px-3 fs-7"><a class="text-white dark-hover"
+                                        href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+                                <li class="list-unstyled p-2 px-3 fs-7"><a class="text-white dark-hover"
+                                        href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>
+                                <li class="list-unstyled p-2 px-3 fs-7"><a class="text-white dark-hover"
+                                        href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li class="list-unstyled p-2 px-3 fs-6 "><a class="text-white dark-hover"
+                                        href="https://www.google.com"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li class="list-unstyled p-2 px-3 fs-7"><a class="text-white dark-hover"
+                                        href="https://www.instagram.com"><i class="fab fa-tumblr"></i></a></li>
+                            </ul>
+                            <div class="blog-content p-4">
+                                <h3 class="fs-18 mb-3 lh-base">Four Ways To Cheer And Plan Your Self Up On Blue</h3>
+                                <span class="fs-8 text-gray pe-3 py-1 border-end border-dark"><i
+                                        class="fa fa-user-o"></i>
+                                    By Dtm_demo</span>
+                                <span class="fs-8 text-gray ps-3 py-1"><i
+                                        class="fab flaticon-calendar-with-spring-binder-and-date-blocks"></i> 19
+                                    Dec
+                                    2018</span>
+                                <hr class="hr-blue l-hr mt-3 mb-0">
+                                <p class="position-relative fs-7 border-top pt-3">
+                                    Lorem ipsum dolor sit amet, rcquisc adipiscing elit.
+                                    Aenean socada commodo liga uala egets dssdolor....
+                                </p>
+                                <a class="fs-7 pt-2 text-dark text-decoration-none">Read More <i
+                                        class="ms-1 fs-6 fas fa-long-arrow-alt-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container col-12 col-md-6 col-lg-4 p-4">
+                    <div class="blog-card rounded shadow">
+                        <div class="blog-img overflow-hidden">
+                            <img src="images/bg3.jpg" class="w-100">
+                        </div>
+                        <div class="blog-container">
+                            <ul
+                                class="d-flex align-items-center justify-content-center m-0 border-end py-1 ps-0 bg-dark">
+                                <li class="list-unstyled p-2 px-3 fs-7"><a class="text-white dark-hover"
+                                        href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+                                <li class="list-unstyled p-2 px-3 fs-7"><a class="text-white dark-hover"
+                                        href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>
+                                <li class="list-unstyled p-2 px-3 fs-7"><a class="text-white dark-hover"
+                                        href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li class="list-unstyled p-2 px-3 fs-6 "><a class="text-white dark-hover"
+                                        href="https://www.google.com"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li class="list-unstyled p-2 px-3 fs-7"><a class="text-white dark-hover"
+                                        href="https://www.instagram.com"><i class="fab fa-tumblr"></i></a></li>
+                            </ul>
+                            <div class="blog-content p-4">
+                                <h3 class="fs-18 mb-3 lh-base">Four Ways To Cheer And Plan Your Self Up On Blue</h3>
+                                <span class="fs-8 text-gray pe-3 py-1 border-end border-dark"><i
+                                        class="fa fa-user-o"></i>
+                                    By Dtm_demo</span>
+                                <span class="fs-8 text-gray ps-3 py-1"><i
+                                        class="fab flaticon-calendar-with-spring-binder-and-date-blocks"></i> 19
+                                    Dec
+                                    2018</span>
+                                <hr class="hr-blue l-hr mt-3 mb-0">
+                                <p class="position-relative fs-7 border-top pt-3">
+                                    Lorem ipsum dolor sit amet, rcquisc adipiscing elit.
+                                    Aenean socada commodo liga uala egets dssdolor....
+                                </p>
+                                <a class="fs-7 pt-2 text-dark text-decoration-none">Read More <i
+                                        class="ms-1 fs-6 fas fa-long-arrow-alt-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="clients-section">
+        <div class="container py-80 pb-40 d-xl-flex justify-content-between">
+            <img src="images/team5.png" class="clients-img">
+            <div class="clients-container">
+                <div class="commen-head text-start pb-40 px-per">
+                    <div class="common-title d-flex align-items-center">
+                        <h1 class="m-3 mb-2 co-title">Meet Our Clients</h1>
+                        <div class="lines m-2">
+                            <hr class="hr-blue s-hr">
+                            <hr class="hr-blue l-hr">
+                        </div>
+                    </div>
+                </div>
+                <div class="row mx-3 mt-4 py-25 text-center">
+                    <div class="card-container col-12 col-md-6 col-lg-4 px-per">
+                        <div class="clients-content border border-gray rounded p-4 my-2">
+                            <img src="images/partner-g1.png">
+                        </div>
+                    </div>
+                    <div class="card-container col-12 col-md-6 col-lg-4 px-per">
+                        <div class="clients-content border border-gray rounded p-4 my-2">
+                            <img src="images/partner-g2.png">
+                        </div>
+                    </div>
+                    <div class="card-container col-12 col-md-6 col-lg-4 px-per">
+                        <div class="clients-content border border-gray rounded p-4 my-2">
+                            <img src="images/partner-g3.png">
+                        </div>
+                    </div>
+                    <div class="card-container col-12 col-md-6 col-lg-4 px-per">
+                        <div class="clients-content border border-gray rounded p-4 my-2">
+                            <img src="images/partner-g4.png">
+                        </div>
+                    </div>
+                    <div class="card-container col-12 col-md-6 col-lg-4 px-per">
+                        <div class="clients-content border border-gray rounded p-4 my-2">
+                            <img src="images/partner-g5.png">
+                        </div>
+                    </div>
+                    <div class="card-container col-12 col-md-6 col-lg-4 px-per">
+                        <div class="clients-content border border-gray rounded p-4 my-2">
+                            <img src="images/partner-g6.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery.min.js"></script>

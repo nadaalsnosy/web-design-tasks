@@ -19,6 +19,9 @@ p {
 .m-icons {
   margin: 1rem 10%;
 }
+.m-pricing{
+  margin: 0 20%;
+}
 .mx-per {
   margin: 0 10%;
 }
@@ -45,6 +48,9 @@ p {
 }
 .fs-7 {
   font-size: 14px;
+}
+.fs-8 {
+  font-size: 12px;
 }
 .p-btn {
   padding: 13px 35px;
@@ -106,7 +112,7 @@ hr {
 }
 .hr-blue {
   height: 2px !important;
-  background: blue;
+  background: #0d6efd;
 }
 .s-hr {
   width: 40px;
@@ -126,4 +132,13 @@ hr {
 }
 .bg-black {
   background: #000000 !important;
+}
+.bg-cream{ 
+  background: #f9f9f9;
+}
+.text-gray{
+  color: gray;
+}
+.border-gray{
+  border-color: gray !important;
 }
