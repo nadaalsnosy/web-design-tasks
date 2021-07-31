@@ -10,7 +10,7 @@ p {
   color: gray;
   line-height: 1.5rem;
 }
-.my-20{
+.my-20 {
   margin: 20px 0;
 }
 .my-30 {
@@ -22,7 +22,7 @@ p {
 .m-icons {
   margin: 1rem 10%;
 }
-.m-pricing{
+.m-pricing {
   margin: 0 20%;
 }
 .mx-per {
@@ -85,6 +85,9 @@ p {
 .py-80 {
   padding: 80px 0;
 }
+.py-130 {
+  padding: 130px 0;
+}
 .py-150 {
   padding: 150px 0;
 }
@@ -97,7 +100,7 @@ p {
 .px-50 {
   padding: 0 50px;
 }
-.p-now{
+.p-now {
   padding: 40px 5%;
 }
 .px-per {
@@ -105,6 +108,9 @@ p {
 }
 .pb-40 {
   padding-bottom: 40px;
+}
+.pt-60 {
+  padding-top: 60px;
 }
 .mw-6 {
   max-width: 660px;
@@ -133,18 +139,21 @@ hr {
   flex: 0 0 auto;
   width: 12%;
 }
+a:hover {
+  color: inherit !important;
+}
 .t-bs {
   box-shadow: 0px -15px 30px -10px #00000021;
 }
 .bg-black {
   background: #141414 !important;
 }
-.bg-cream{ 
+.bg-cream {
   background: #f9f9f9;
 }
-.text-gray{
+.text-gray {
   color: gray;
 }
-.border-gray{
+.border-gray {
   border-color: gray !important;
 }
