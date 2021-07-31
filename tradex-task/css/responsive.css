@@ -91,6 +91,9 @@
   .mx-per {
     margin: 0 1rem;
   }
+  .now-icon {
+    display: block;
+  }
 }
 
 @media (min-width: 1200px) {

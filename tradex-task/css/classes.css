@@ -300,3 +300,23 @@
   filter: drop-shadow(-5px 5px 10px #717171);
   margin-left: 40px;
 }
+.clients-content img {
+  width: 80%;
+  height: 90px;
+}
+.nav-tabs .nav-link.active {
+  color: #0d6efd !important;
+}
+.pricing-content .nav-tabs .nav-link.active {
+  background: #0d6efd !important;
+  color: #ffffff !important;
+}
+
+.now-icon {
+  display: none;
+  font-size: 110px;
+  position: absolute;
+  margin-top: 31px;
+  margin-left: 150px;
+  color: #4791ff;
+}
