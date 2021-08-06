@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <header class="bg-primary d-none d-lg-block">
+    <header id="pageTop" class="bg-primary d-none d-lg-block">
         <div class="container text-white d-flex justify-content-between">
             <div class="header-left-part d-flex py-2">
                 <ul class="d-flex align-items-center m-0 border-end py-1 ps-0">
@@ -49,7 +49,7 @@
         </div>
     </header>
 
-    <nav class="shadow position-sticky top-0 bg-white navbar navbar-expand-lg navbar-light bg-light py-3">
+    <nav id="scrollNav" class="shadow top-0 bg-white navbar navbar-expand-lg navbar-light bg-light py-3">
         <div class="container">
             <a class="navbar-brand" href="index.html"><img src="images/logo.png"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -176,7 +176,7 @@
                         </ul>
                     </li>
                     <li class="nav-item ps-2 fs-7 py-25">
-                        <a class="nav-link text-dark blue-hover" href="#">CONTACT</a>
+                        <a class="nav-link text-dark blue-hover" href="contact.html">CONTACT</a>
                     </li>
                 </ul>
             </div>
@@ -356,7 +356,7 @@
         </div>
     </section>
 
-    <section class="icons-section bg-light py-60">
+    <section id="iconsNum" class="icons-section bg-light py-60">
         <div class="container">
             <div class="row border-0 m-icons">
                 <div class="d-flex col-12 col-sm-6 col-lg-3 align-items-center py-25 px10">
@@ -365,7 +365,7 @@
                     </div>
                     <div>
                         <div class="p-0 ms-4">
-                            <h3>8000</h3>
+                            <h3 class="count" data-target="8000">0</h3>
                             <p class="card-text"><small class="text-muted">Total Projects</small></p>
                         </div>
                     </div>
@@ -376,7 +376,7 @@
                     </div>
                     <div>
                         <div class="p-0 ms-4">
-                            <h3>810</h3>
+                            <h3 class="count" data-target="810">0</h3>
                             <p class="card-text"><small class="text-muted">Won Awards</small></p>
                         </div>
                     </div>
@@ -387,7 +387,7 @@
                     </div>
                     <div>
                         <div class="p-0 ms-4">
-                            <h3>2000</h3>
+                            <h3 class="count" data-target="2000">0</h3>
                             <p class="card-text"><small class="text-muted">Happy Clients</small></p>
                         </div>
                     </div>
@@ -399,7 +399,7 @@
                     </div>
                     <div>
                         <div class="p-0 ms-4">
-                            <h3>20</h3>
+                            <h3 class="count" data-target="20">0</h3>
                             <p class="card-text"><small class="text-muted">Years Experience</small></p>
                         </div>
                     </div>
@@ -1593,12 +1593,13 @@
         </div>
     </footer>
 
-    <button class="move-icon shadow border-0"><i class=" fa fa-chevron-up"></i></button>
+    <a href="#pageTop" id="bottomBtn" class="move-icon shadow border-0"><i class=" fa fa-chevron-up"></i></a href="#">
 
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
     <script>
         $(document).ready(function () {
             $(".owl-1-carousel").owlCarousel({

@@ -6,6 +6,7 @@
 .container {
   max-width: 1260px !important;
 }
+
 .blue-hover {
   transition: color 0.4s;
 }
@@ -350,7 +351,9 @@
 .post-head:hover {
   color: #cacaca;
 }
+
 .move-icon {
+  display: none;
   position: fixed;
   bottom: 40px;
   right: 40px;
@@ -358,7 +361,7 @@
   background: #0d6efd;
   border-radius: 50%;
   padding: 12px;
-  padding-top: 6px;
+  padding-top: 10px;
   color: #ffffff;
   z-index: 10000000;
 }

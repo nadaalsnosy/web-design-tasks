@@ -143,7 +143,7 @@
                             aria-labelledby="navbarDropdownMenuLink">
                             <li class="d-flex flex-column border-end">
                                 <a class="dropdown-item p-dd blue-hover border-2 border-top border-primary"
-                                href="#">Project Style 1</a>
+                                    href="#">Project Style 1</a>
                                 <a class="dropdown-item p-dd blue-hover" href="#">2 Column Grid</a>
                                 <a class="dropdown-item p-dd blue-hover" href="#">3 Column Grid</a>
                                 <a class="dropdown-item p-dd blue-hover" href="#">2 Column Masonary</a>
@@ -159,7 +159,7 @@
                             </li>
                             <li class="d-flex flex-column border-end">
                                 <a class="dropdown-item p-dd blue-hover border-2 border-top border-primary"
-                                href="#">Other Page</a>
+                                    href="#">Other Page</a>
                                 <a class="dropdown-item p-dd blue-hover" href="#">Project Detail</a>
                                 <a class="dropdown-item p-dd blue-hover" href="#">Team Style 1</a>
                                 <a class="dropdown-item p-dd blue-hover" href="#">Team Style 2</a>
@@ -167,12 +167,12 @@
                             </li>
                             <li class="d-flex flex-column">
                                 <a class="dropdown-item p-dd blue-hover border-2 border-top border-primary"
-                                href="#">Other Page</a>
+                                    href="#">Other Page</a>
                                 <a class="dropdown-item p-dd blue-hover" href="#">Pricing</a>
                                 <a class="dropdown-item p-dd blue-hover" href="#">FAQ</a>
                                 <a class="dropdown-item p-dd blue-hover" href="#">404</a>
                                 <a class="dropdown-item p-dd blue-hover" href="#">Typography</a>
-                            </li>                            
+                            </li>
                         </ul>
                     </li>
                     <li class="nav-item ps-2 fs-7 py-25">
@@ -254,29 +254,33 @@
                     </div>
                 </div>
             </div>
-            <form class="row mx-3">
+            <form id="myForm" class="row mx-3">
                 <div class="col-12 col-lg-4 px-per py-3 position-relative">
                     <i class="input-icon fs-6 position-absolute fa fa-user-o"></i>
-                    <input type="text" name="name" placeholder="Name" id="name"
-                        class="contact-input fs-7 w-100 border-0 border-bottom border-dark py-2 px-4">
+                    <input type="text" name="userName" placeholder="Name" id="userName"
+                        class="contact-input mb-2 fs-7 w-100 border-0 border-bottom border-dark py-2 px-4">
+                    <span></span>
                 </div>
                 <div class="col-12 col-lg-4 px-per py-3 position-relative">
                     <i class="input-icon fs-6 position-absolute fa fa-envelope-o"></i>
-                    <input type="email" name="email" placeholder="Email" id="email"
-                        class="contact-input fs-7 w-100 border-0 border-bottom border-dark py-2 px-4">
+                    <input type="email" name="userEmail" placeholder="Email" id="userEmail"
+                        class="contact-input mb-2 fs-7 w-100 border-0 border-bottom border-dark py-2 px-4">
+                    <span></span>
                 </div>
                 <div class="col-12 col-lg-4 px-per py-3 position-relative">
                     <i class="input-icon fs-6 position-absolute fa fa-pencil"></i>
-                    <input type="text" name="subject" placeholder="Subject" id="subject"
-                        class="contact-input fs-7 w-100 border-0 border-bottom border-dark py-2 px-4">
+                    <input type="password" name="userPassword" placeholder="Password" id="userPassword"
+                        class="contact-input mb-2 fs-7 w-100 border-0 border-bottom border-dark py-2 px-4">
+                    <span></span>
                 </div>
                 <div class="col-12 px-per py-3 position-relative">
                     <i class="input-icon fs-6 position-absolute fa fa-pencil"></i>
-                    <textarea rows="10" name="message" placeholder="Your Message" id="message"
-                        class="contact-input fs-7 w-100 border-0 border-bottom border-dark py-2 px-4"></textarea>
+                    <textarea rows="10" name="userMessage" placeholder="Your Message" id="userMessage"
+                        class="contact-input  mb-2 fs-7 w-100 border-0 border-bottom border-dark py-2 px-4"></textarea>
+                    <span></span>
                 </div>
                 <div class="col-12 col-lg-4 px-per py-3 position-relative">
-                    <input type="submit" value="Send Message"
+                    <input type="submit" value="Send Message" id="regBtn"
                         class="contact-button bg-primary border-0 m-2 p-btn text-white rounded-pill fs-18">
                 </div>
             </form>
@@ -382,11 +386,12 @@
         </div>
     </footer>
 
-    <button class="move-icon shadow border-0"><i class=" fa fa-chevron-up"></i></button>
+    <a href="#pageTop" id="bottomBtn" class="move-icon shadow border-0"><i class=" fa fa-chevron-up"></i></a href="#">
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
     <script>
         $(document).ready(function () {
             $(".owl-1-carousel").owlCarousel({
