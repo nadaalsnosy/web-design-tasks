@@ -22,6 +22,9 @@ header {
   top: 46px;
   padding: 15px 20px;
   text-align: center;
+  background: white;
+  border: 2px solid #e5e2e2;
+  border-radius: 5px;
 }
 .header-links li {
   margin: 10px;
@@ -319,7 +322,7 @@ footer .container {
 .footer-title-content {
   border-bottom: 2px solid #8a8a8a;
 }
-.footer-title{
+.footer-title {
   margin-top: 15px;
 }
 .footer-input {
@@ -385,6 +388,7 @@ footer .container {
     position: static;
     display: flex !important;
     padding: 0;
+    border: none;
   }
   .header-links li {
     padding: 20px 0;
@@ -483,15 +487,14 @@ footer .container {
   .footer-input {
     width: 45%;
   }
-  .footer-container{
+  .footer-container {
     margin: 40px 0;
   }
-  .footer-content{
+  .footer-content {
     margin-right: 17%;
   }
   .footer-item {
     width: unset;
     margin-right: 6%;
   }
-
 }
